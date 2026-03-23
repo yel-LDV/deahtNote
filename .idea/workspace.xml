@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="deahtNote:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04faa14c-968a-4456-ae56-8b04ac2d7361" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/commands/DistributeRolesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/listeners/RoleSwapListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/listeners/RoleSwapProtectionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/listeners/WatariAndLListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/RoleDistributionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/RoleSwapManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/commands/DebugCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/commands/DebugCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/events/PlayersJoinEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/events/PlayersJoinEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/listeners/DeathListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/listeners/DeathListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/listeners/StealIdentificationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/listeners/StealIdentificationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/DeathNoteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/DeathNoteManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/NearMelloManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/RoleConversionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/RoleConversionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/ShinigamiDealManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/ShinigamiDealManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/VictoryConditionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/managers/VictoryConditionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/scoreboard/ScoreboardAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/scoreboard/SimpleScoreboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/scoreboard/SimpleScoreboardManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/DeathListener2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/PlayerCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/PlayerCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/PlayerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/PlayerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/RoleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/RoleAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/SuccessionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/commands/DebugCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/commands/DebugCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/events/PlayersJoinEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/events/PlayersJoinEvents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/listeners/DeathListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/listeners/DeathListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/listeners/StealIdentificationListener$StealAttempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/listeners/StealIdentificationListener$StealAttempt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/listeners/StealIdentificationListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/listeners/StealIdentificationListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/DeathNoteManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/DeathNoteManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/DeathNoteManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/DeathNoteManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/NearMelloManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/RoleConversionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/RoleConversionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/ShinigamiDealManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/ShinigamiDealManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/VictoryConditionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/managers/VictoryConditionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/scoreboard/ScoreboardAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/scoreboard/SimpleScoreboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/scoreboard/SimpleScoreboardManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/scoreboard/SimpleScoreboardManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/systemRol/DeathListener2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/systemRol/PlayerCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/systemRol/PlayerCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/systemRol/PlayerData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/systemRol/PlayerData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/systemRol/RoleAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/systemRol/RoleAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/angelDL_/internal/systemRol/SuccessionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/papermc/paper/paper-api/1.21-R0.1-SNAPSHOT/paper-api-1.21-R0.1-20240810.100446-132-sources.jar!/org/bukkit/entity/Player.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/PlayerCache.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="34urMZEjvepoIUVBOTxZM9xMHBc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.deahtNote [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15527344",
+    "project.structure.side.proportion": "0.33793104",
+    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="mx.angelDL_.internal.listeners" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mcdev-temp-root" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mcdev-temp-root" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="mcdev-temp-root" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="mcdev-temp-root" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04faa14c-968a-4456-ae56-8b04ac2d7361" name="Changes" comment="" />
+      <created>1762074251117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762074251117</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:net.kyori:adventure-api" />
+    <option featureType="dependencySupport" implementationName="java:io.papermc.paper:paper-api" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/mx/angelDL_/internal/systemRol/RoleAPI.java</url>
+          <line>396</line>
+          <properties class="mx.angelDL_.internal.systemRol.RoleAPI" method="removePhysicalIdentification">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

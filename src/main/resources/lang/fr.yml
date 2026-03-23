@@ -1,0 +1,183 @@
+# =============================================
+# DeathNote Plugin - Langue: Français
+# =============================================
+
+general:
+  no_permission: "&cVous n'avez pas la permission de faire cela."
+  players_only: "&cCette commande ne peut être utilisée que par des joueurs."
+  player_not_found: "&cJoueur {player} introuvable."
+  reload_success: "&aPlugin rechargé avec succès."
+
+join:
+  message: "&b{player} a rejoint. Il faut {min} joueurs pour commencer."
+  registered: "&aEnregistré en tant qu'Enquêteur."
+  game_can_start: "&6Le nombre minimum de joueurs a été atteint ! La partie peut commencer."
+  inv_cleared: "&7Inventaire vidé à l'entrée."
+  id_dropped: "&eVotre identification a été lâchée au sol car votre inventaire est plein."
+  shinigami_item_dropped: "&eL'objet du pacte a été lâché au sol - inventaire plein."
+  mission_item_dropped: "&eVotre objet de mission a été lâché au sol car votre inventaire est plein."
+
+role:
+  changed: "&aVotre rôle a changé de {old} à {new}."
+  shinigami_revoked: "&cLe Pacte Shinigami a été révoqué lors du changement de rôle."
+  death_note_removed: "&cVotre Death Note a été retirée."
+  mission_item_removed: "&cVotre objet de mission a été retiré."
+  unknown: "&cInconnu"
+  already_has_id: "&cVous avez déjà une Death Note."
+  already_mission: "&cVous avez déjà l'objet de mission."
+  inv_full_death_note: "&eVotre Death Note a été lâchée au sol car votre inventaire est plein."
+  inv_full_mission: "&eVotre objet de mission a été lâché au sol car votre inventaire est plein."
+  received_death_note: "&4Vous avez reçu la Death Note ! Clic droit pour ouvrir le menu."
+  received_mission_item: "&bVous avez reçu l'objet de mission ! Clic droit pour assigner des missions."
+  set_error: "&cImpossible de changer votre rôle, erreur d'enregistrement."
+
+death_note:
+  kill_cooldown: "&cVous devez attendre &e{time} secondes &cavant d'utiliser à nouveau la Death Note."
+  no_identification: "&cVous n'avez pas l'identification de {player}."
+  kill_success: "&4{player} a été écrit dans la Death Note..."
+  already_dead: "&cLe joueur {player} est déjà mort."
+  offline_kill: "&e{player} mourra à sa prochaine connexion."
+  cannot_kill_self: "&cVous ne pouvez pas écrire votre propre nom dans la Death Note."
+  roles_unknown: "&7Rôle inconnu"
+
+identification:
+  stolen_inv_full: "&eL'identification volée a été lâchée au sol car votre inventaire est plein."
+  dropped: "&eL'identification a été lâchée au sol car votre inventaire est plein."
+  default_received: "&aVous avez reçu votre nouvelle identification."
+  inv_full: "&eVotre identification a été lâchée au sol car votre inventaire est plein."
+
+steal:
+  no_cooldown_first: ""
+  cooldown: "&cVous devez attendre &e{time} secondes &cavant de voler à nouveau."
+  error_no_data: "&cErreur : données du joueur introuvables."
+  target_no_id: "&cLe joueur n'a pas cette identification."
+  already_have: "&cVous avez déjà l'identification de {player}."
+  victim_lose_fail: "&cImpossible de retirer l'identification de la victime."
+  thief_add_fail: "&cImpossible d'ajouter l'identification à votre inventaire."
+
+shinigami_deal:
+  not_kira: "&cSeul Kira peut faire le Pacte Shinigami."
+  already_has: "&cVous avez déjà fait le Pacte Shinigami."
+  activated: "&4⚡ VOUS AVEZ CONCLU LE PACTE SHINIGAMI !"
+  activated_health: "&cVous avez perdu la moitié de votre vie définitivement."
+  activated_benefits: "&aVous pouvez maintenant voler des identifications plus rapidement et voir la vie des autres."
+  reverted: "&aLe Pacte Shinigami a été révoqué."
+  received_item: "&4Vous avez reçu l'objet du pacte Shinigami !"
+  received_item_instructions: "&7Clic droit pour activer le pacte (IRRÉVERSIBLE)."
+  inv_full: "&eL'objet du pacte a été lâché au sol - inventaire plein."
+  give_used: "&7Vous avez déjà un pacte actif."
+
+role_swap:
+  cooldown: "&cVous devez attendre &e{time} secondes &cavant d'échanger à nouveau."
+  no_mikami: "&cAucun Mikami vivant trouvé pour l'échange."
+  success: "&6Rôle échangé ! De {old_role} à {new_role}."
+  broadcast: "&6Échange de rôles ! &e{kira} &6et &e{mikami} &6ont échangé leurs rôles."
+  item_received: "&6Vous avez reçu l'objet d'échange de rôles !"
+  processing: "&cUn échange est déjà en cours."
+
+mission:
+  already_has: "&cVous avez déjà une mission active."
+  zone_not_found: "&cZone de mission introuvable."
+  need_players: "&cVous devez sélectionner exactement {max_players} joueurs pour la mission."
+  cooldown: "&cVous devez attendre {time} secondes avant d'assigner une autre mission."
+  player_dead: "&c{player} est mort et ne peut pas recevoir de mission."
+  assigned: "&bMission assignée dans {zone} !"
+  received: "&bVous avez été assigné à une mission dans {zone} !"
+  instructions: "&7Vous avez {duration} secondes pour la compléter."
+  completed: "&aMission accomplie ! Vous avez gagné {exp} points d'expérience."
+  failed: "&cMission échouée ! Raison : {reason}."
+  broadcast: "&bLa mission dans {zone} a été accomplie !"
+  progress_reset: "&cProgression réinitialisée ! Les deux joueurs doivent être dans la zone."
+  penalty: "&c💔 Pénalité ! Vous avez perdu 1 cœur pour avoir échoué la mission."
+  timeout: "temps écoulé"
+  disconnected: "déconnexion d'un joueur"
+  teleport_success: "&aTélétransporté à : {zone}"
+  teleport_no_world: "&cMonde de la zone introuvable."
+  role_required: "&cSeul L peut assigner des missions."
+  role_required_tp: "&cVous n'avez pas la permission d'utiliser cette commande."
+
+mission_status:
+  paused: "&eMISE EN PAUSE"
+  slow: "&6PROGRESSION LENTE"
+  normal: "&aPROGRESSION NORMALE"
+  stopped: "&cAUCUNE PROGRESSION"
+
+watari:
+  not_watari_or_l: "&cErreur : Seul Watari peut donner des documents à L."
+  no_ids_to_give: "&cVous n'avez pas d'identifications d'autres joueurs à donner."
+  cannot_get_owner: "&cErreur : Impossible de déterminer le propriétaire du document."
+  transfer_failed: "&cVous ne pouvez pas transférer votre propre identification."
+  give_success: "&aVous avez remis l'identification de {player} à L."
+  l_receive: "&aWatari vous a remis l'identification de {player} avec des informations supplémentaires."
+  l_inspect: "&cSeul L peut inspecter des documents."
+  not_id: "&cCe n'est pas un document d'identification valide."
+  no_cache: "&cVous n'avez pas cette identification dans votre système."
+  inspected: "&aVous avez inspecté le document de {player} et révélé son rôle."
+  inv_full: "&cL'inventaire de L est plein."
+
+victory:
+  header: "&6&l=== PARTIE TERMINÉE ! ==="
+  footer: "&6&l========================="
+  winner: "&eVainqueur : &6{player} &e(Rôle : &6{role}&e)"
+  kira: "&4KIRA GAGNE ! L et Near ont été éliminés. Le dieu du nouveau monde a triomphé."
+  l: "&9L GAGNE ! La justice a prévalu."
+  mello: "&6MELLO GAGNE ! L'héritier a accompli sa mission."
+  near: "&fNEAR GAGNE ! En tant que nouveau L, la logique a vaincu."
+  investigator: "&aLES ENQUÊTEURS GAGNENT ! L'ordre a été rétabli."
+  generic: "&a{role} GAGNE !"
+
+succession:
+  l_death_to_l: "&cL est mort. Near prendra votre place."
+  l_death_to_near: "&bVous êtes maintenant L ! Continuez l'enquête."
+  l_death_broadcast: "&b{player} a pris le rôle de L."
+  l_death_no_successor: "&cL est mort et il n'y a pas de successeur."
+  near_death_to_near: "&cNear est mort. Mello mourra aussi."
+  near_death_to_mello: "&cVous êtes mort parce que Near a été tué."
+  near_death_broadcast: "&cMello est mort en conséquence de la mort de Near."
+  mello_death_to_mello: "&cMello est mort. Near mourra aussi."
+  mello_death_to_near: "&cVous êtes mort parce que Mello a été tué."
+  mello_death_broadcast: "&cNear est mort en conséquence de la mort de Mello."
+  kira_death_to_kira: "&4Kira est mort. Un nouveau Kira peut surgir."
+  kira_death_broadcast: "&4Kira a été éliminé ! Un nouveau successeur va-t-il surgir ?"
+
+role_names:
+  kira: "&4Kira"
+  l: "&9L"
+  mello: "&6Mello"
+  near: "&fNear"
+  watari: "&3Watari"
+  mikami: "&cMikami"
+  investigador: "&7Enquêteur"
+  investigator: "&7Enquêteur"
+  unknown: "&7Inconnu"
+
+action_bar:
+  watari_format: "&9L: {player}"
+  l_format: "&9Watari: {player}"
+
+debug:
+  header: "&6=== INFOS DEBUG ==="
+  role: "&eRôle: {role}"
+  alive: "&eVivant: {alive}"
+  ids: "&eIDs: {ids}"
+  shinigami: "&ePacte Shinigami: {deal}"
+
+role_distribution:
+  already_distributed: "&cLes rôles ont déjà été distribués."
+  not_enough: "&cAu moins 2 joueurs sont nécessaires."
+  started: "&aDistribution des rôles..."
+  completed: "&aRôles distribués avec succès !"
+  assigned: "&aLe rôle {role} vous a été attribué."
+
+roles_desc:
+  kira: "&4§lVOUS ÊTES KIRA !\n&cVous avez le pouvoir de tuer avec la Death Note.\n&7Clic droit avec la Death Note pour ouvrir le menu."
+  l: "&9§lVOUS ÊTES L !\n&bVous êtes le meilleur détective du monde.\n&7Vous avez accès aux missions et pouvez voir les vrais rôles."
+  mikami: "&c§lVOUS ÊTES MIKAMI !\n&eVous êtes le partisan de Kira.\n&7Vous pouvez voler des identifications et aider Kira."
+  mello: "&6§lVOUS ÊTES MELLO !\n&eVous êtes le rival de Near.\n&7Vous avez des capacités de combat spéciales."
+  near: "&f§lVOUS ÊTES NEAR !\n&7Vous êtes le successeur de L.\n&7Vous pouvez devenir L si L meurt."
+  watari: "&3§lVOUS ÊTES WATARI !\n&bVous êtes le soutien de L.\n&7Vous pouvez voir la position de L."
+
+database:
+  load_success: "&aBase de données chargée avec succès."
+  save_success: "&aDonnées sauvegardées dans la base de données."
+  error: "&cErreur de base de données : {error}"
